@@ -18,8 +18,8 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip NEXUS-GAME-BOOSTER-2.1-CYBER-EXTREME-FIXED.zip -d source
-
+         unzip NEXUS-GAME-BOOSTER-2.1-CYBER-EXTREME.zip -d source
+          
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
